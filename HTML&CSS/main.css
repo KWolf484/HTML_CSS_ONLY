@@ -1,0 +1,30 @@
+body {
+  background-color: #333;
+}
+
+
+
+
+header {
+  text-align: center;
+  color: lightgrey;
+}
+
+nav>ul>li {
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  color: lightgrey;
+}
+
+section>article {
+  color: lightgrey;
+  text-align: center;
+
+
+}
+section>img {
+  position: relative;
+  margin: auto;
+}
