@@ -22,7 +22,12 @@ header {
   font-size: 28px;
   text-align: center;
   color: var(--main-primary);
+  text-shadow: 2px 2px darkslategray;
 }
+
+ #banner>nav {
+  padding-bottom: 0.25em;
+ }
 
 nav>ul>li {
   font-variant-caps: small-caps;
@@ -31,22 +36,41 @@ nav>ul>li {
   text-decoration: none;
   color: var(--main-primary);
   padding: 1rem;
+  text-shadow: 2px 2px darkslategray;
 }
 
 nav>ul {
-  padding: 1rem 0 0.2rem 0;
+  padding: 0.5rem 0 0.2rem 0;
   text-align: center;
+}
+nav>ul>li>a, a:visited {
+  color: var(--main-primary);
+  text-decoration: none;
+}
+nav>ul>li>a:hover {
+  text-decoration: none;
+  font-size: 115%;
+}
+section>article {
+  display: inline-flex;
+  align-content: flex-start;
+  margin: 2rem 4rem 2rem 4rem;
+  color: var(--main-primary);
+  /* text-align: center; */
 }
 
-section>article {
-  margin: 2rem 1rem 2rem 1rem;
-  color: var(--main-primary);
-  text-align: center;
+section>article>img {
+border: 1px solid var(--main-primary);
+display: inline-flex;
+align-content: flex-end;
 }
+
 section>img {
+  /* opacity: 75%; */
+  align-items: center;
   display: block;
   margin: auto;
-  border-style: solid;
+  border:1px solid var(--main-primary);
 }
 
 footer {
